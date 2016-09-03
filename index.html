@@ -10,19 +10,23 @@
 <body>
 	<div class="container">
 		<div class="jumbotron">
-			<div class="buttonArea">
+			<div id="buttonArea">
 				<button class="btn animalButton" data-animal='cat'>Cat</button>
 				<button class="btn animalButton" data-animal='lion'>Lion</button>
 				<button class="btn animalButton" data-animal='tiger'>Tiger</button>
 				<button class="btn animalButton" data-animal='cheetah'>Cheeta</button>
 			</div>
-        </div>
-	    <div class = "jumbotron">
-		    <div class="form-group">
-		    	<label for="searchInput"><h2>Enter an Animal to find 'dem sweet .gifs</h2></label><br>
-		    	<input type="text" id="searchInput" placeholder="Animal"><br><br>
-		    	<button class ="btn btn-primary btn-block" id="submitButton">Submit</button>
-		    </div>
+		</div>
+		<div class="jumbotron">
+			<div class="form-group">
+				<label for="searchInput">
+					<h2>Enter an Animal to find 'dem sweet .gifs</h2></label>
+				<br>
+				<input type="text" id="searchInput" placeholder="Animal">
+				<br>
+				<br>
+				<button class="btn btn-primary btn-block" type='submit' id="submitButton">Submit</button>
+			</div>
 		</div>
 		<div id='gifArea'></div>
 	</div>
