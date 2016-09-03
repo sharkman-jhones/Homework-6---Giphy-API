@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Giphy API Homework</title>
+	<link rel="stylesheet" type="text/css" href="assets/CSS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="buttonArea">
+				<button class="btn" data-animal='cat' class="animalButton">Cat</button>
+				<button class="btn" data-animal='lion' class="animalButton">Lion</button>
+				<button class="btn" data-animal='tiger' class="animalButton">Tiger</button>
+				<button class="btn" data-animal='cheetah' class="animalButton">Cheeta</button>
+			</div>
+        </div>
+	    <div class = "jumbotron">
+		    <div class="form-group">
+		    	<label for="searchInput"><h2>Enter an Animal to find 'dem sweet .gifs</h2></label><br>
+		    	<input type="text" id="searchInput" placeholder="Animal"><br><br>
+		    	<button class ="btn btn-primary btn-block" id="submitButton">Submit</button>
+		    </div>
+		</div>
+		<div id='gifArea'></div>
+	</div>
+	<script src="assets/Javascript/jquery-3.1.0.min.js"></script>
+	<script src="assets/Javascript/program.js"></script>
+</body>
+
+</html>
