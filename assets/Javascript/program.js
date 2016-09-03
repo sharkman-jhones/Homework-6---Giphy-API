@@ -53,6 +53,7 @@ $('#submitButton').on('click', function(){
 	newButton.attr('data-animal', input)
 	$('#buttonArea').append(newButton);
 
+	$(newButton).click();
 	return false;
 
 });
